@@ -1,0 +1,60 @@
+@font-face {
+  font-family: Prototype;
+  src: url(assets/Prototype.ttf);
+}
+
+@font-face {
+  font-family: Grotesk;
+  src: url(assets/GroteskLight.otf);
+}
+
+.navbar{
+	width: 100%;
+	height: 150px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.tilt{
+	background-color: #17182D;
+	width: 110%;
+	height: 250px;
+	transform: rotate(4deg);
+	position: relative;
+	left: -2px;
+	top: -80px;
+}
+
+.navbar > table{
+	width: 100%;
+	min-width: 1000px;
+	max-width: 1800px;
+	height: 15px;
+	position: absolute;
+	top: 25px;
+	text-align: center;
+	right: 0;
+	color: white;
+}
+
+.title{
+	font-family: Prototype;
+	font-size: 35pt;
+}
+
+.text{
+	font-family: Grotesk;
+}
+
+.navbar-table td{
+	font-family: Grotesk;
+	font-size: 15pt;
+	width: 10%;
+}
+
+.navbar-table td:first-child{
+	font-family: Prototype;
+	font-size: 35pt;
+	width: 60%;
+}
